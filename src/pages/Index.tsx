@@ -182,8 +182,8 @@ const Index = () => {
               <a href="#rations" className="text-sm font-medium hover:text-primary transition-colors text-yellow-900">Рационы</a>
               <a href="#about" className="text-sm font-medium hover:text-primary transition-colors text-yellow-900">О нас</a>
               <a href="#blog" className="text-sm font-medium hover:text-primary transition-colors text-yellow-900">Блог</a>
-              <a href="#reviews" className="text-sm font-medium hover:text-primary transition-colors">Отзывы</a>
-              <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors">Контакты</a>
+              <a href="#reviews" className="text-sm font-medium hover:text-primary transition-colors text-orange-900">Отзывы</a>
+              <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors text-amber-900">Контакты</a>
             </nav>
 
             <Sheet open={isCartOpen} onOpenChange={setIsCartOpen}>
