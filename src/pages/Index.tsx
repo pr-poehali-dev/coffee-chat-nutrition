@@ -172,16 +172,16 @@ const Index = () => {
               <img 
                 src="https://cdn.poehali.dev/files/26e64aca-e25a-4bbe-81c9-7aec4b660090.jpg" 
                 alt="Pro Баланс" 
-                className="h-12 w-12 object-contain"
+                className="h-12 w-12 object-contain rounded-2xl"
               />
-              <h1 className="text-2xl font-bold text-primary">Pro Баланс</h1>
+              <h1 className="text-2xl font-bold text-lime-800">Pro Баланс</h1>
             </div>
             
             <nav className="hidden md:flex items-center gap-6">
-              <a href="#menu" className="text-sm font-medium hover:text-primary transition-colors">Меню</a>
-              <a href="#rations" className="text-sm font-medium hover:text-primary transition-colors">Рационы</a>
-              <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">О нас</a>
-              <a href="#blog" className="text-sm font-medium hover:text-primary transition-colors">Блог</a>
+              <a href="#menu" className="text-sm font-medium hover:text-primary transition-colors text-yellow-900">Меню</a>
+              <a href="#rations" className="text-sm font-medium hover:text-primary transition-colors text-yellow-900">Рационы</a>
+              <a href="#about" className="text-sm font-medium hover:text-primary transition-colors text-yellow-900">О нас</a>
+              <a href="#blog" className="text-sm font-medium hover:text-primary transition-colors text-yellow-900">Блог</a>
               <a href="#reviews" className="text-sm font-medium hover:text-primary transition-colors">Отзывы</a>
               <a href="#contacts" className="text-sm font-medium hover:text-primary transition-colors">Контакты</a>
             </nav>
