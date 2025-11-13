@@ -168,9 +168,13 @@ const Index = () => {
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="text-3xl">🌱</span>
-              <h1 className="text-2xl font-bold text-primary">GreenCafe</h1>
+            <div className="flex items-center gap-3">
+              <img 
+                src="https://cdn.poehali.dev/files/26e64aca-e25a-4bbe-81c9-7aec4b660090.jpg" 
+                alt="Pro Баланс" 
+                className="h-12 w-12 object-contain"
+              />
+              <h1 className="text-2xl font-bold text-primary">Pro Баланс</h1>
             </div>
             
             <nav className="hidden md:flex items-center gap-6">
@@ -577,7 +581,7 @@ const Index = () => {
 
       <footer className="bg-primary/5 py-8 border-t">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2024 GreenCafe. Все права защищены.</p>
+          <p>© 2024 Pro Баланс. Все права защищены.</p>
           <p className="mt-2">Здоровое питание — это просто 🌱</p>
         </div>
       </footer>
