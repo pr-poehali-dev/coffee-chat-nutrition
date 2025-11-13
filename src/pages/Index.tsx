@@ -300,12 +300,10 @@ const Index = () => {
       <section className="bg-gradient-to-br from-primary/10 via-secondary/20 to-accent/10 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center space-y-6">
-            <h2 className="text-5xl md:text-6xl font-bold text-foreground">
+            <h2 className="text-5xl md:text-6xl font-bold text-lime-900">
               Правильное питание — вкусно и просто
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Здоровые блюда с точным подсчётом калорий и нутриентов. Доставка за 60 минут.
-            </p>
+            <p className="text-xl text-green-900">Здоровые блюда с точным подсчётом калорий и нутриентов. Доставка в удобное время. </p>
             
             <Card className="mt-8 max-w-md mx-auto">
               <CardHeader>
